@@ -1,7 +1,7 @@
 class HangmanGame
 	def initialize(word)
 		@word = word
-		@current_word = "_" * word.size
+		@current_word = "_" * (word.size-2)
 	end
 
 	def current_word
